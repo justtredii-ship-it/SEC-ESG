@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+
+*{box-sizing:border-box;font-family:'Google Sans',Arial,sans-serif}
+body{margin:0;background:#f5f8fc;color:#12305b;display:flex}
+.sidebar{width:260px;background:#fff;height:100vh;padding:25px;border-right:1px solid #ddd}
+.sidebar a{display:block;padding:14px;margin:7px 0;border-radius:12px;color:#596579}
+.sidebar .active{background:#e6f0ff;color:#0068d9}
+main{flex:1;padding:25px}
+header{display:flex;justify-content:space-between;align-items:center}
+input{width:55%;padding:15px;border-radius:12px;border:1px solid #ddd}
+.profile-mini{background:#fff;padding:10px 18px;border-radius:15px;display:flex;gap:12px;align-items:center}
+.profile-mini img{width:48px;height:48px;border-radius:50%}
+.profile-mini small{display:block;color:#6b7280}
+.card{background:#fff;padding:22px;border-radius:18px;margin:18px 0;box-shadow:0 5px 20px #0000000d}
+.hero{display:flex;gap:40px}
+.identity img{width:90px;height:90px;border-radius:50%}
+.summary{display:grid;grid-template-columns:1fr 1fr;gap:15px;flex:1}
+.summary div{background:#f8fbff;padding:18px;border-radius:12px}
+.summary strong,.summary small{display:block;margin-top:8px}
+.approved{background:#d7f7df;color:#15803d;padding:7px 12px;border-radius:20px;width:max-content}
+.metrics{display:flex;gap:15px}
+.metrics div{background:#fff;padding:20px;border-radius:15px;flex:1}
+.job{border-left:5px solid #0b76d1}
+.job h3{margin-top:0}
+.money{color:#16a34a;font-weight:700}
+.status{font-weight:600}
+.btn{padding:11px 16px;border-radius:10px;border:0;color:white;cursor:pointer}
+.office{background:#0868d8}
+.field{background:#16a34a}
+.completed{background:#edf0f4;color:#8b95a7;line-height:2}
